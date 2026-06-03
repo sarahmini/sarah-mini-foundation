@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Mini Humanitarian Foundation</title>
+    <script src="https://tailwindcss.com"></script>
+    <style>
+        .brand-green { color: #2D7A4D; }
+        .brand-blue { color: #3A9AD4; }
+        .bg-brand-green { background-color: #2D7A4D; }
+        .bg-brand-blue { background-color: #3A9AD4; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <!-- Replace 'logo.png' with your saved logo image file path -->
+                <img src="logo.png" alt="Sarah Mini Foundation Logo" class="h-12 w-auto">
+                <span class="font-bold text-xl tracking-tight brand-green hidden md:inline">Sarah Mini <span class="brand-blue">Humanitarian Foundation</span></span>
+            </div>
+            <div class="space-x-6 font-medium">
+                <a href="#about" class="hover:text-emerald-700 transition">About</a>
+                <a href="#pillars" class="hover:text-emerald-700 transition">Our Pillars</a>
+                <a href="#contact" class="bg-brand-blue text-white px-4 py-2 rounded-full hover:bg-sky-600 transition">Donate</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-r from-emerald-800 to-sky-700 text-white py-24 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6">Empowering Communities, Uplifting Humanity</h1>
+            <p class="text-xl md:text-2xl mb-8 text-emerald-50 max-w-2xl mx-auto">Dedicated to raising people out of poverty, supporting women, and providing critical educational pathways to bright futures.</p>
+            <a href="#pillars" class="bg-white brand-green font-bold px-8 py-3 rounded-full shadow-lg hover:bg-emerald-50 transition text-lg">Learn Our Impact</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6 brand-green">Our Mission</h2>
+        <p class="text-lg text-gray-600 leading-relaxed">
+            The Sarah Mini Humanitarian Foundation acts as a global beacon of hope. Grounded in universal values of compassion, community preservation, and equity, we look to tear down systemic barriers holding individuals back from their full potential.
+        </p>
+    </section>
+
+    <!-- Pillars / Services Section -->
+    <section id="pillars" class="bg-white py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 brand-green">Key Areas of Focus</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <!-- Pillar 1: Women's Empowerment -->
+                <div class="p-6 bg-gray-50 rounded-2xl border-t-4 border-emerald-600 shadow-sm">
+                    <div class="text-3xl mb-4">👩‍🍼</div>
+                    <h3 class="text-xl font-bold mb-3 brand-green">Empowering Women</h3>
+                    <p class="text-gray-600">Providing safety, advocacy, and vocational training platforms to help women achieve economic independence and leadership positions.</p>
+                </div>
+
+                <!-- Pillar 2: Poverty Alleviation -->
+                <div class="p-6 bg-gray-50 rounded-2xl border-t-4 border-sky-500 shadow-sm">
+                    <div class="text-3xl mb-4">🌾</div>
+                    <h3 class="text-xl font-bold mb-3 brand-blue">Poverty Alleviation</h3>
+                    <p class="text-gray-600">Delivering sustainable structural aid, basic food security, and financial literacy to pull families out of generational poverty loops.</p>
+                </div>
+
+                <!-- Pillar 3: Education & Scholarships -->
+                <div class="p-6 bg-gray-50 rounded-2xl border-t-4 border-emerald-600 shadow-sm">
+                    <div class="text-3xl mb-4">🎓</div>
+                    <h3 class="text-xl font-bold mb-3 brand-green">Educational Assistance</h3>
+                    <p class="text-gray-600">Sponsoring promising students with comprehensive academic scholarships, mentorship programs, and crucial school materials.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Action Section -->
+    <section id="contact" class="py-20 px-4 bg-gray-900 text-white text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold mb-4">Join Us in Making a Difference</h2>
+            <p class="text-gray-400 mb-8">Whether you want to partner with us, apply for a scholarship, or contribute financially, your support changes lives.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button onclick="alert('Thank you for your support! Integration setup required.')" class="bg-brand-green px-8 py-3 rounded-full font-bold hover:bg-emerald-700 transition">Make a Donation</button>
+                <a href="mailto:info@sarahminifoundation.org" class="bg-gray-800 border border-gray-700 px-8 py-3 rounded-full font-bold hover:bg-gray-700 transition">Contact Our Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-gray-500 text-sm py-8 text-center border-t border-gray-900">
+        <p>&copy; 2026 Sarah Mini Humanitarian Foundation. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
